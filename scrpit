@@ -1,0 +1,4 @@
+#!/bin/bash
+for filename in *; do
+	git add "$filename" && git commit -m "add $filename"
+done
